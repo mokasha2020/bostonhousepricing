@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=MJ1vWb1rGwM&list=WL&index=28&t=13s
+
+http://lib.stat.cmu.edu/datasets/boston
+https://stackoverflow.com/questions/51125475/typeerror-fit-transform-missing-1-required-positional-argument-x
+https://towardsdatascience.com/what-and-why-behind-fit-transform-vs-transform-in-scikit-learn-78f915cf96fe
+https://stackoverflow.com/questions/28064634/random-state-pseudo-random-number-in-scikit-learn
