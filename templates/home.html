@@ -1,3 +1,46 @@
-<h1>
-    Hello World
-</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boston House Price Prediction</title>
+</head>
+<body>
+    <h1>Boston House Price Prediction</h1>
+    <h2>Enter Your Information</h2>
+    <form id="myForm" action="{{url_for('predict')}}" method="post">
+        <label for="field1">CRIM:</label>
+        <input type="text" id="field1" name="CRIM" required><br>
+        <label for="field2">ZN:</label>
+        <input type="text" id="field2" name="ZN" required><br>
+        <label for="field3">INDUS:</label>
+        <input type="text" id="field3" name="INDUS" required><br>
+        <label for="field4">CHAS:</label>
+        <input type="text" id="field4" name="CHAS" required><br>
+        <label for="field5">NOX:</label>
+        <input type="text" id="field5" name="NOX" required><br>
+        <label for="field6">RM:</label>
+        <input type="text" id="field6" name="RM" required><br>
+        <label for="field7">AGE:</label>
+        <input type="text" id="field7" name="AGE" required><br>
+        <label for="field8">DIS:</label>
+        <input type="text" id="field8" name="DIS" required><br>
+        <label for="field9">RAD:</label>
+        <input type="text" id="field9" name="RAD" required><br>
+        <label for="field10">TAX:</label>
+        <input type="text" id="field10" name="TAX" required><br>
+        <label for="field11">PTRATIO:</label>
+        <input type="text" id="field11" name="PTRATIO" required><br>
+        <label for="field12">B:</label>
+        <input type="text" id="field12" name="B" required><br>
+        <label for="field13">LSTAT:</label>
+        <input type="text" id="field13" name="LSTAT" required><br>
+
+        <input type="submit" value="Predict">
+
+       
+    </form>
+
+</div>
+{{prediction_text}}
+
+</body>
+</html>
